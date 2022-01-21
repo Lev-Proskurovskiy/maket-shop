@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.header_logo, .header_a, .header_input, .header_button{
+    display: flex;
+    justify-content: normal;
+}
+.header_logo{
+    position: relative;
+    flex-grow: 1;
+    padding: 0 10px;
+    margin: 10px auto;
+}
+.header_logo_img{
+    position: absolute;
+}
+.header .header_logo .header_logo_img p{
+    position: absolute;
+    font-size: xx-large;
+    top: -5px;
+    left: -8px;
+    font-weight: bold;
+    color: white;
+}
+.header_logo img{
+    width: 40px;
+    height: 40px;
+}
+.header_logo h2{
+    color:#0C2146;
+    margin: 0 10px 0 45px;
+}
+.header_logo a{
+    padding: 10px 10px;
+    color: #5A5B6A;
+}
+.header_input{
+    position: relative;
+    flex-grow: 2;
+}
+.header_input input{
+    width: 100%;
+    height: 40px;
+    margin: auto 0;
+    border-radius: 50px;
+    border: 1px solid white;
+    padding-left: 30px;
+    background: url("img/logo/Vector.png") no-repeat center left #EDEDF0;
+    background-position: 8px;
+}
+.header_input button{
+    position: absolute;
+    right: 15px;
+    top: 18px;
+    border: none;
+}
+.header p{
+    flex-grow: 1;
+    margin: auto 20px;
+    color:#2264D1;
+}
+.header_button{
+    flex-grow: 1;
+    justify-content:flex-end;
+}
+.header_button .btn{
+    margin: auto 5px;
+    padding: 0 10px;
+    height: 30px;
+    font-weight: bold;
+}
+.header_button img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav li{
+    padding: 5px;
+}
+.nav li img{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav li .activ{
+    color:#2979FF;
+}
